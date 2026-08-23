@@ -9,7 +9,7 @@
 export TM_CURRENT_WORD
 export TM_BLITZMAX
 
-out=$(ruby -wKU "$TM_BUNDLE_SUPPORT/documentation_for_sel.rb")
+out=$(ruby -w "$TM_BUNDLE_SUPPORT/documentation_for_sel.rb")
 status="$?"
 
 if [[ "$status" == 0 ]]; then

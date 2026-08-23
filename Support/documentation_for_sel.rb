@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -wKU
+#!/usr/bin/env ruby -w
 
 if ENV['TM_BLITZMAX'].nil? then
 	print "TM_BLITZMAX shell variable not set.\n\nPlease see the Help (⌃⌘T Help) command for more information."
